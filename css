@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+p {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(68deg, black, gray, rgb(192, 192, 192), rgb(172, 172, 172), lightgray);
+    background-attachment: fixed;
+}
+
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gasoek One', sans-serif;
+    font-size: 60px;
+}
+
+#question {
+    margin-left: 100px;
+    margin-bottom: 32px;
+    font-family: 'Arial', sans-serif;
+}
+
+#options {
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+
+.option {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width:200px;
+	height: 50px;
+	background-color:#666;
+	border-radius: 10px;
+}
+
+.option:hover {
+    background-color: black;
+    color: white;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#next, #restart {
+    display: none;
+    margin-top: 10px;
+    margin-left: 100px;
+    width:100px;
+	height:50px;
+	background-color: rgb(129, 125, 125);
+	border-radius: 10px;
+    cursor: pointer;
+}
+
+#next:hover {
+    background-color: rgb(99, 99, 187);
+}
